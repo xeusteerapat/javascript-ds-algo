@@ -13,8 +13,8 @@ function addUpToFirst(n) {
 console.log('For-loop approach --->', addUpToFirst(100));
 console.log('------------------------------------------');
 
-function addUpToFirst2(n) {
+function addUpToSecond(n) {
   return (n * (n + 1)) / 2;
 }
 
-console.log('Series approach --->', addUpToFirst2(100));
+console.log('addUpToSecond approach --->', addUpToSecond(100));
