@@ -1,5 +1,5 @@
 // Adding number from 1 to n
-// For-loop approach
+// For-loop approach O(n)
 
 function addUpToFirst(n) {
   let answer = 0;
@@ -13,6 +13,7 @@ function addUpToFirst(n) {
 console.log('For-loop approach --->', addUpToFirst(100));
 console.log('------------------------------------------');
 
+// Add up to second approch O(1)
 function addUpToSecond(n) {
   return (n * (n + 1)) / 2;
 }
