@@ -21,24 +21,21 @@
 
 Example
 
-#### Write a function which takes two numbers and return their sums
+```javascript
+// Write a function which takes two numbers and return their sums
 
-1. Restate in your own words, make sure you're really understand it.
+// 1. Restate in your own words, make sure you're really understand it.
+// ---> Implement the addition function
 
-- Implement the addition function
+// 2. What are the inputs?
+// ---> Int? Float? Large numbers?
 
-2. What are the inputs?
+// 3. What are the outputs?
+// ---> Int? Float? Large numbers?
 
-- Int? Float? Large numbers?
+// 4. Do you have enough information to solve the problem, based on the inputs?
+// ---> It depends...
 
-3. What are the outputs?
-
-- Int? Float? Large numbers?
-
-4. Do you have enough information to solve the problem, based on the inputs?
-
-- It depends...
-
-5. How should you label the important data?
-
-- name function 'add' receive arguments 'num1' and 'num2' and return 'result'
+// 5. How should you label the important data?
+// ---> name function 'add' receive arguments 'num1' and 'num2' and return 'resilt'
+```
