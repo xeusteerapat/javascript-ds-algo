@@ -6,7 +6,9 @@
 
 ## Objects
 
-Unordered, Keys-Values pairs
+- Unordered, Keys-Values pairs
+- When you don't need order
+- When you need fast access/insert and remove
 
 ### Big-O of Objects
 

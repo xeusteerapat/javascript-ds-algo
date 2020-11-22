@@ -4,4 +4,4 @@ let person = {
   favoriteNumbers: [4, 7, 8, 9],
 };
 
-console.log(Object.hasOwnProperty('lastName'));
+console.log(person.hasOwnProperty('isInstructor'));
