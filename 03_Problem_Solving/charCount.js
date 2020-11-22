@@ -18,17 +18,42 @@ function charCount(str) {
     }
   }
 
-  let result = {};
-  for (let s of str) {
-    if (result[s]) {
-      result[s]++;
+  // my approach
+  let obj2 = {};
+  for (let char of str) {
+    if (obj2[char]) {
+      obj2[char]++;
     } else {
-      result[s] = 1;
+      obj2[char] = 1;
+    }
+  }
+
+  // refactor
+  let result = {};
+  for (let char of str) {
+    if (isAlphaNumeric(char)) {
+      char = char.toLowerCase();
+      result[char] = ++result[char] || 1;
     }
   }
 
   // return object
-  return obj;
+  return result;
+}
+
+// using helper function rather than RegEx
+function isAlphaNumeric(char) {
+  let code = char.charCodeAt(0);
+
+  if (
+    !(code > 47 && code < 58) && // 0-9
+    !(code > 64 && code < 91) && // A-Z
+    !(code > 96 && code < 123) // a-z
+  ) {
+    return false;
+  }
+
+  return true;
 }
 
 let a = charCount('ht, there!');
